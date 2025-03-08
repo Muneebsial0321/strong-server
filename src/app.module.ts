@@ -6,6 +6,7 @@ import { HistoryModule } from './history/history.module';
 import { GameModule } from './game/game.module';
 import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
+import { BenchmarksModule } from './benchmarks/benchmarks.module';
 
 
 @Module({
@@ -16,6 +17,7 @@ import { MongooseModule } from '@nestjs/mongoose';
     ExerciseModule,
     WorkoutModule,
     HistoryModule,
-    GameModule],
+    GameModule,
+    BenchmarksModule],
 })
 export class AppModule { }
