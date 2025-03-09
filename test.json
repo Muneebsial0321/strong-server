@@ -1,0 +1,15 @@
+{
+    "workout": [
+        {
+            "exeId": "123",
+            "sets": [
+                {
+                    "reps": 4,
+                    "weight": 100,
+                    "metric": "kg",
+                    "type": "normal"
+                }
+            ]
+        }
+    ]
+}
